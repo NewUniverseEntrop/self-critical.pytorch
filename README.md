@@ -42,10 +42,10 @@ root
   
 ### Prepare data.
 cd into self-critical folder do the following 
- python scripts/prepro_labels.py --input_json data/data.json --output_json data/datatalk.json --output_h5 data/datatalk
- python scripts/prepro_ngrams.py --input_json data/data.json --dict_json data/datatalk.json --output_pkl data/data-train --split train
- python scripts/prepro_reference_json.py --input_json data/data.json --output_json data/data_captions4eval.json
- python scripts/prepro_feats.py --input_json data/data.json --output_dir data/datatalk --images_root ../raw_images
+  - python scripts/prepro_labels.py --input_json data/data.json --output_json data/datatalk.json --output_h5 data/datatalk
+ - python scripts/prepro_ngrams.py --input_json data/data.json --dict_json data/datatalk.json --output_pkl data/data-train --split train
+ - python scripts/prepro_reference_json.py --input_json data/data.json --output_json data/data_captions4eval.json
+ - python scripts/prepro_feats.py --input_json data/data.json --output_dir data/datatalk --images_root ../raw_images
 
 ### Start training
 
