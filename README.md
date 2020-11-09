@@ -1,5 +1,5 @@
 
-Trained a image captioning LSTM model with youcook2 dataset.
+Trained a image captioning LSTM model with youcook2 dataset. 
 
 # requiremnt
   1. speechRecognition
@@ -53,7 +53,7 @@ python tools/train.py --id fc --caption_model newfc --input_json data/datatalk.j
 
 ```
 
-output model.pth will be saved in opt-fc folder
+output model.pth will be saved in opt-fc folder , you can modify the parameters , see detail in captioning/utils/opts.py
 
 ## Generate image captions
 
@@ -68,8 +68,9 @@ change the model.pth and  infos.pkl path
 ```bash
 $ python tools/eval.py --model model.pth --infos_path infos.pkl --image_folder blah --num_images 10
 ```
+captioning/utils/eval.utils.py might need some debugging...
 
-The eval script will create an `vis.json` file inside the `vis` folder
+The eval script will create an `vis.json` file inside the `vis` folder, 
 
 ## Reference
 
