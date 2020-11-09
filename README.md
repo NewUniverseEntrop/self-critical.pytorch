@@ -1,6 +1,8 @@
 
 Trained a image captioning LSTM model with youcook2 dataset. 
 
+See reference for original repo
+
 # requiremnt
   1. speechRecognition
   2. pydub
