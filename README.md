@@ -1,3 +1,38 @@
+
+# requiremnt
+  1. speechRecognition
+  2. pydub
+  3. and other package in original readme
+  4. ffmpeg 
+  5. Potential issue with windows .. i used linux
+  
+# root Structure
+'''
+root
+  -project folder (unzip the data.zip and rename it to project) 
+  -self-critical
+    - this repo without data.zip 
+    - replace some of the files with the file inside (fix.zip) 
+        specifially , tools/train.py , eval.py etc ...
+  -raw_caption
+  -raw_video
+  
+
+
+'''
+# step 1 : Video processing 
+  1. assume all videos are in the raw-videos folder (in the root folder where project folder will be)
+  2. run mp3wave.py to extract wav
+  3. run frame.py to extract jpg 
+  4. run gooogle.py to extract caption for each image
+  5. run dataset.py to conver to coco 
+  
+# training
+  # follow the same steps below in the original readme
+
+~~~~
+
+# Original Readme 
 # An Image Captioning codebase
 
 This is a codebase for image captioning research.
