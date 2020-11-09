@@ -13,6 +13,8 @@ Trained a image captioning LSTM model with youcook2 dataset.
 - yacs
 - lmdbdict
 -tensorboard
+- place resnet101 model inside data/image_weights
+
 
 This repo is forked , see reference.
 
