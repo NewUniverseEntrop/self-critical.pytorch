@@ -43,6 +43,8 @@ def getCOCO(dataset):
         annFile = 'data/f30k_captions4eval.json'
     elif 'data' in dataset or 'dataset' in datset:
         annFile = 'data/data_captions4eval.json'
+    else:
+        annFile='data/data_captions4eval.json'
     return COCO(annFile)
 
 
