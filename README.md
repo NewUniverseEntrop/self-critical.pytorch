@@ -53,16 +53,11 @@ cd into self-critical folder do the following
 python tools/train.py --id fc --caption_model newfc --input_json data/datatalk.json --input_fc_dir data/datatalk_fc --input_att_dir data/datatalk_att --input_label_h5 data/datatalk_label.h5 --batch_size 10 --learning_rate 5e-4 --learning_rate_decay_start 0 --scheduled_sampling_start 0 --checkpoint_path log_fc --save_checkpoint_every 5000 --val_images_use 10 --max_epochs 5
 
 ```
-
 output model.pth will be saved in opt-fc folder , you can modify the parameters , see detail in captioning/utils/opts.py
 
 ## Generate image captions
 
 ### Evaluate on raw images
-
-**Note**: this doesn't work for models trained with bottomup feature.
-Now place all your images of interest into a folder, e.g. `blah`, and run
-the eval script:
 
 change the model.pth and  infos.pkl path 
 
@@ -70,6 +65,8 @@ change the model.pth and  infos.pkl path
 $ python tools/eval.py --model model.pth --infos_path infos.pkl --image_folder blah --num_images 10
 ```
 captioning/utils/eval.utils.py might need some debugging...
+
+# Result
 
 The eval script will create an `vis.json` file inside the `vis` folder, 
 
