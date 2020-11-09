@@ -28,7 +28,7 @@ root
   5. run dataset.py to conver to coco 
   
 # training
-  # follow the same steps below in the original readme
+  # follow the same steps below in the original readme, do another processing of the captions...
 
 ~~~~
 
