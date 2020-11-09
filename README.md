@@ -7,7 +7,7 @@ Trained a image captioning LSTM model with youcook2 dataset.
   3. and other package in original readme
   4. ffmpeg 
   5. Potential issue with windows .. i used linux to run
-  6. resnet101 model
+  6. resnet101
   - Python 3
 - PyTorch 1.3+ (along with torchvision)
 - cider (already been added as a submodule)
