@@ -7,7 +7,8 @@
   5. Potential issue with windows .. i used linux
   
 # root Structure
-'''
+```
+
 root
   -project folder (unzip the data.zip and rename it to project) 
   -self-critical
@@ -16,10 +17,7 @@ root
         specifially , tools/train.py , eval.py etc ...
   -raw_caption
   -raw_video
-  
-
-
-'''
+```
 # step 1 : Video processing 
   1. assume all videos are in the raw-videos folder (in the root folder where project folder will be)
   2. run mp3wave.py to extract wav
