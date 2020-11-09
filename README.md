@@ -28,7 +28,7 @@ root
     - this repo without data.zip 
     - replace some of the files with the file inside (fix.zip) 
         specifially , tools/train.py , eval.py etc ...
-  -raw_caption
+  -raw_images
   -raw_video
 ```
 # step 1 : Video processing 
