@@ -1,6 +1,16 @@
 
 Trained a image captioning LSTM model with youcook2 dataset. 
 
+# Summary:
+      1. we extracted frames and captions(not accurate with google speech, can do better with provided annotation) from the video every 10 seconds (can improve if i can split the video by silence), used existing resnet101  to get festure.
+  
+  feed features into LSTM and get models.
+ 
+   Current status:  
+              1. we didnt have the time to train the actual model due pc limitation ,  bugs and inexpereice with machine learning in general. 
+                    
+              2. Next we will train the model with the entire dataset , now we only made sure the codes can run.  
+
 
 # requiremnt
   1. speechRecognition
