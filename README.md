@@ -8,8 +8,7 @@ we extracted frames and captions(not accurate with google speech, can do better 
 feed features into LSTM and get models.
  
 Current status:  
-              1. we didnt have the time to train the actual model due pc limitation ,  bugs and inexpereice with machine learning in general. 
-                    
+              1. we didnt have the time to train the actual model due pc limitation ,  bugs and inexpereice with machine learning in general       
               2. Next we will train the model with the entire dataset , now we only made sure the codes can run.  
 
 
