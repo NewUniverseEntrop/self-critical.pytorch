@@ -43,14 +43,15 @@ root
   -raw_video
 ```
 # step 1 : Video processing 
-  1. assume all videos are in the raw-videos folder (in the root folder where project folder will be)
-  2. run mp3wave.py to extract wav
+Note: extract data.zip ...
+  1. assume all videos are in the raw videos folder 
+  2. run mp3wave.py to extract wav 
   3. run frame.py to extract jpg 
   4. run gooogle.py to extract caption for each image
   5. run dataset.py to conver to coco 
   
 # training
-  
+note: replace some of the folders with replace.zip ( added bug fix code) 
 ### Prepare data.
 cd into self-critical folder do the following 
   - python scripts/prepro_labels.py --input_json data/data.json --output_json data/datatalk.json --output_h5 data/datatalk
