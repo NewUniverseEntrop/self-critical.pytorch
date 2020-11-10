@@ -9,7 +9,7 @@ Trained a Test image captioning LSTM model with youcook2 dataset.
  
 +Current status:  
               1. we didnt have the time to train the actual model due pc limitation ,  bugs and inexpereice with machine learning in general       
-              2. Next we will train the model with the entire dataset , and improve the annotation and overall process. 
+              2. Next we will train the model with the entire dataset , and improve the annotation and overall training. 
 
 
 # requiremnt
